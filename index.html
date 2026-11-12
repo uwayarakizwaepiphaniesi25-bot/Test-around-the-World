@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Taste Around The World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <h2 class="logo">Taste<span>World</span></h2>
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="countries.html">Countries</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Welcome Section -->
+    <section class="home-hero">
+        <div class="hero-content">
+            <p class="hero-small">DISCOVER THE WORLD THROUGH FOOD</p>
+
+            <h1>Explore Different Cultures, One Dish at a Time</h1>
+
+            <p>
+                Welcome to Taste Around The World! Discover delicious
+                traditional dishes, explore different countries, and learn
+                about the cultures behind the food.
+            </p>
+
+            <a href="menu.html" class="hero-btn">Explore Our Menu</a>
+        </div>
+    </section>
+
+<!-- SEARCH FOOD SECTION -->
+<section class="search-section">
+    <h2>Find Your Favourite Food</h2>
+    <p>Search for delicious dishes from different countries.</p>
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="foodSearch"
+            placeholder="Search food, e.g. Sushi, Isombe..."
+        >
+        <button onclick="searchFood()">Search</button>
+    </div>
+
+    <div id="searchResults"></div>
+</section>
+
+
+    <!-- Introduction -->
+    <section class="home-intro">
+        <h2>A World of Flavours Awaits You</h2>
+
+        <p>
+            Food is more than something we eat. It tells stories about
+            people's history, traditions, and culture. Join us as we
+            discover unique flavours from around the world.
+        </p>
+    </section>
+
+    <!-- Featured Dishes -->
+    <section class="featured-section">
+        <div class="home-section-heading">
+            <p>OUR SELECTION</p>
+            <h2>Featured Dishes</h2>
+            <span>Discover some delicious dishes from different regions.</span>
+        </div>
+
+        <div class="featured-container">
+
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=700&q=80"
+                     alt="Indian chicken biryani">
+
+                <div class="featured-info">
+                    <h3>Chicken Biryani</h3>
+                    <p class="food-origin">India · Asia</p>
+                    <p>
+                        A fragrant rice dish prepared with spices and
+                        chicken, popular in Indian cuisine.
+                    </p>
+                    <a href="menu.html">Explore Dish</a>
+                </div>
+            </div>
+
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=80"
+                     alt="Italian pizza">
+
+                <div class="featured-info">
+                    <h3>Italian Pizza</h3>
+                    <p class="food-origin">Italy · Europe</p>
+                    <p>
+                        A famous Italian dish made with a baked dough base
+                        and a variety of toppings.
+                    </p>
+                    <a href="menu.html">Explore Dish</a>
+                </div>
+            </div>
+
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?auto=format&fit=crop&w=700&q=80"
+                     alt="Japanese sushi">
+
+                <div class="featured-info">
+                    <h3>Japanese Sushi</h3>
+                    <p class="food-origin">Japan · Asia</p>
+                    <p>
+                        A traditional Japanese dish made with seasoned
+                        rice and different ingredients.
+                    </p>
+                    <a href="menu.html">Explore Dish</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Food of the Day -->
+    <section class="food-day-section">
+
+        <div class="food-day-image">
+            <img src="https://images.unsplash.com/photo-1589302168068-964664d93dc0?auto=format&fit=crop&w=900&q=80"
+                 alt="Chicken biryani served with spices">
+        </div>
+
+        <div class="food-day-info">
+            <p class="food-day-label">TODAY'S SPECIAL FEATURE</p>
+
+            <h2>Food of the Day: Chicken Biryani</h2>
+
+            <p>
+                Chicken Biryani is a popular rice dish known for its
+                rich aroma and combination of spices. It is enjoyed
+                in India and many other countries.
+            </p>
+
+            <p>
+                Its ingredients commonly include rice, chicken,
+                onions, yoghurt, and a mixture of aromatic spices.
+            </p>
+
+            <a href="menu.html" class="food-day-btn">Discover More Foods</a>
+        </div>
+
+    </section>
+
+    <!-- Explore Countries -->
+    <section class="home-explore">
+        <h2>Discover Food From Around the World</h2>
+
+        <p>
+            From Africa to Asia, Europe to America, every region has
+            something special to offer. Explore the countries and
+            discover their traditional dishes.
+        </p>
+
+        <a href="countries.html" class="hero-btn">Explore Countries</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> TasteWorld. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
